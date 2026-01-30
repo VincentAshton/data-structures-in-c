@@ -50,3 +50,53 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# ============ Visual Studio ============
+## 编译输出目录
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+## VS项目文件
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.opensdf
+*.sdf
+*.db
+*.opendb
+
+## VS编译临时文件
+*.cache
+*.tlog
+*.lastbuildstate
+*.recipe
+*.manifest
+*.ipch
+
+## VS Code
+.vscode/
+
+# ============ Windows ============
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
