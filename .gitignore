@@ -1,3 +1,83 @@
+# ============================================
+# Visual Studio 2022 特定文件
+# ============================================
+
+## Visual Studio 项目文件
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.opensdf
+*.sdf
+*.db
+*.opendb
+
+## Visual Studio 编译输出目录
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+arm/
+arm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+## Visual Studio 编译中间文件
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.log
+*.recipe
+*.cache
+*.manifest
+*.ipch
+*.res
+*.iobj
+*.ipdb
+*.exp
+*.lib
+
+## VS Code
+.vscode/
+
+# ============================================
+# C/C++ 编译文件（通用）
+# ============================================
+
+# 对象文件
+*.o
+*.ko
+*.elf
+
+# 可执行文件
+*.exe
+*.out
+*.app
+
+# 库文件
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# 调试文件
+*.dSYM/
+*.su
+
+# ============================================
+# 你的原内容（保留）
+# ============================================
+
 # Prerequisites
 *.d
 
@@ -51,52 +131,38 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# ============ Visual Studio ============
-## 编译输出目录
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
+# ============================================
+# 操作系统文件
+# ============================================
 
-## VS项目文件
-*.sln
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
-*.suo
-*.opensdf
-*.sdf
-*.db
-*.opendb
-
-## VS编译临时文件
-*.cache
-*.tlog
-*.lastbuildstate
-*.recipe
-*.manifest
-*.ipch
-
-## VS Code
-.vscode/
-
-# ============ Windows ============
-# Windows thumbnail cache files
+# Windows
 Thumbs.db
-Thumbs.db:encryptable
 ehthumbs.db
-ehthumbs_vista.db
+Desktop.ini
+*.lnk
 
-# Dump file
-*.stackdump
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
 
-# Folder config file
-[Dd]esktop.ini
+# Linux
+*~
+
+# ============================================
+# 临时文件和备份文件
+# ============================================
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 备份文件
+*.bak
+*.backup
+*.old
+*.save
