@@ -15,18 +15,6 @@
 * [ ] **图 (Graph)**
 * [ ] **排序与查找 (Sort & Search)**
 
-## 📂 目录结构说明
-
-```text
-.
-├── LinearList/           # 线性表相关实现
-│   ├── SequenceList/     # 顺序表源代码 (.c / .h)
-│   └── LinkList/         # 单链表源代码 (.c / .h)
-├── README.md             # 本说明文件
-└── .gitignore            # 忽略编译生成的 .exe 或中间文件
-
-```
-
 ## 🛠 开发环境
 
 * **编程语言**: C11
