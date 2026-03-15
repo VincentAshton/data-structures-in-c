@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+
+# Build
+x64/
+Debug/
+Release/
+
+# Logs
+*.log
+
+# Executables
+*.exe
+*.pdb
+*.ilk
+
+# Copilot
+CopilotIndices/
